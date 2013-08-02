@@ -10,4 +10,14 @@
 
 @interface CocoaPushover : NSObject
 
+/*
+ * Sends a synchronous request to the pushover servers
+ *
+ * Returns true iff the request succeeded 
+ *
+ * Specify the arguments in the options parameter; 
+ * "token", "user", "message" are required parameters
+ */
++ (BOOL)sendSynchronousNotification:(NSDictionary *)options error:(NSError *__autoreleasing *)err;
+
 @end

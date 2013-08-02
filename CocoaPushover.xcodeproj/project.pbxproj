@@ -14,6 +14,7 @@
 		F47EBB7417AB63D400CE6158 /* libCocoaPushover.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F47EBB5B17AB63D400CE6158 /* libCocoaPushover.a */; };
 		F47EBB7A17AB63D400CE6158 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F47EBB7817AB63D400CE6158 /* InfoPlist.strings */; };
 		F47EBB7C17AB63D400CE6158 /* CocoaPushoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F47EBB7B17AB63D400CE6158 /* CocoaPushoverTests.m */; };
+		F47EBB8617AB7C3D00CE6158 /* Credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47EBB8517AB7C3D00CE6158 /* Credentials.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		F47EBB7717AB63D400CE6158 /* CocoaPushoverTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CocoaPushoverTests-Info.plist"; sourceTree = "<group>"; };
 		F47EBB7917AB63D400CE6158 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F47EBB7B17AB63D400CE6158 /* CocoaPushoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocoaPushoverTests.m; sourceTree = "<group>"; };
+		F47EBB8517AB7C3D00CE6158 /* Credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Credentials.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 			children = (
 				F47EBB7717AB63D400CE6158 /* CocoaPushoverTests-Info.plist */,
 				F47EBB7817AB63D400CE6158 /* InfoPlist.strings */,
+				F47EBB8517AB7C3D00CE6158 /* Credentials.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -220,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F47EBB7A17AB63D400CE6158 /* InfoPlist.strings in Resources */,
+				F47EBB8617AB7C3D00CE6158 /* Credentials.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

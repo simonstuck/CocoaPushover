@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "CocoaPushover.h"
 
 @interface CocoaPushoverTests : XCTestCase
 
@@ -30,7 +31,14 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    NSMutableDictionary *options = [[NSMutableDictionary alloc] init];
+
+    [options setValue:@">>>>>YOURTOKEN<<<<<" forKey:@"token"];
+    [options setValue:@">>>>>YOURUSER<<<<<<" forKey:@"user"];
+    [options setValue:@"Hello World!" forKey:@"message"];
+    
+    NSError *err;
+    XCTAssertTrue([CocoaPushover sendSynchronousNotification:options error:&err]);
 }
 
 @end
